@@ -6,7 +6,7 @@
 /*   By: leomiran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 22:26:42 by leomiran          #+#    #+#             */
-/*   Updated: 2026/10/28 19:26:31 by mirandaleo       ###   ########.fr       */
+/*   Updated: 2026/10/28 22:42:57 by mirandaleo       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,5 +51,6 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
+void	ft_putnbr_fd(int n, int fd);
 
 #endif //LIBFT_H
