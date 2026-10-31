@@ -6,7 +6,7 @@
 /*   By: leomiran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 22:26:42 by leomiran          #+#    #+#             */
-/*   Updated: 2026/10/29 23:44:38 by mirandaleo       ###   ########.fr       */
+/*   Updated: 2026/10/30 23:54:25 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 t_list	*ft_lstnew(void *content);
+unsigned int	ft_lstsize(t_list *lst);
 void	ft_lstadd_front(t_list **lst, t_list *new);
 
 #endif //LIBFT_H
