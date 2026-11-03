@@ -6,7 +6,7 @@
 /*   By: leomiran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 22:26:41 by leomiran          #+#    #+#             */
-/*   Updated: 2026/10/27 22:26:41 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/03 23:20:30 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ char	*ft_strchr(const char *s, int c)
 	p = (char *)s;
 	while (p[i])
 	{
-		if (p[i] == c)
-			return (&p[i]);
+		if ((unsigned char)p[i] == (unsigned char)c)
+			return (&p+);
 		i++;
 	}
 	if (c == '\0')
