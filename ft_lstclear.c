@@ -6,7 +6,7 @@
 /*   By: leomiran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/01 11:31:27 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/02 20:34:10 by mirandaleo       ###   ########.fr       */
+/*   Updated: 2026/11/03 14:15:59 by mirandaleo       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,6 @@ void	ft_lstclear(t_list **lst, void (*del) (void *))
 
 	if (!lst || !del || !*lst)
 		return ;
-	if (!(*lst)->next)
-	{
-		ft_lstdelone((*lst), del);
-		return ;
-	}
 	while ((*lst)->next)
 	{
 		temp = *lst;

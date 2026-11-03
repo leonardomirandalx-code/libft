@@ -6,7 +6,7 @@
 /*   By: leomiran <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/27 22:26:42 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/01 12:24:25 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/03 14:41:56 by mirandaleo       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,5 +65,6 @@ t_list	*ft_lstlast(t_list *lst);
 void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst, void (*del) (void *));
 void	ft_lstclear(t_list **lst, void (*del) (void *));
+void	 ft_lstiter(t_list *lst, void (*f)(void *));
 
 #endif //LIBFT_H
