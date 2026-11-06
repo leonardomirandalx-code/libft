@@ -22,3 +22,4 @@ All these functions are compiled into a static library, `libft.a`, which can be 
 - `ft_isalnum`: Returns 1 if the character passed as a parameter is alphabetical or a digit (from `'a'` to `'z'`, from `'A'` to `'Z'` or from `'0'` to `'9'`) in the ASCII table, and 0 otherwise.
 - `ft_isascii`: Returns 1 if the value passed as a parameter is a character (from 0 to 127) in the ASCII table, and 0 otherwise.
 - `ft_strlen`: Returns the number of characters in the string passed as a parameter, counting until the null terminator (`'\0'`), which is not included in the count.
+- `

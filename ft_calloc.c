@@ -6,27 +6,12 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:41 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/04 23:00:41 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/06 19:40:24 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdint.h>
-#include <stdlib.h>
-
-static void	ft_bzero_helper(void *s, size_t nmemb, size_t size)
-{
-	unsigned char	*p;
-	size_t			i;
-
-	p = (unsigned char *)s;
-	i = 0;
-	while (i < nmemb * size)
-	{
-		p[i] = '\0';
-		i++;
-	}
-}
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {
@@ -44,6 +29,6 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	array = malloc(nmemb * size);
 	if (array == NULL)
 		return (NULL);
-	ft_bzero_helper(array, nmemb, size);
+	ft_bzero(array, nmemb * size);
 	return (array);
 }

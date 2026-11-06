@@ -6,7 +6,7 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:45 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/04 23:00:45 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/06 19:41:46 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,4 +69,4 @@ void			ft_lstiter(t_list *lst, void (*f) (void *));
 t_list			*ft_lstmap(t_list *lst, void *(*f) (void *),
 					void (*del) (void *));
 
-#endif //LIBFT_H
+#endif //LIBFT_Hdefine LIBFT_H

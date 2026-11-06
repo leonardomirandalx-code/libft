@@ -6,7 +6,7 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:44 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/04 23:00:44 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/06 20:25:43 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ char	*ft_strchr(const char *s, int c)
 			return (&p[i]);
 		i++;
 	}
-	if (c == '\0')
+	if ((unsigned char)c == '\0')
 		return (&p[i]);
 	return (NULL);
 }
