@@ -18,8 +18,9 @@ All these functions are compiled into a static library, `libft.a`, which can be 
 ### Part 1 - Libc functions
 
 - `ft_isalpha`: Returns 1 if the character passed as a parameter is alphabetical (from `'a'` to `'z'` or `'A'` to `'Z'`) in the ASCII table, and 0 otherwise.
-- `ft_isalpha`: Returns 1 if the character passed as a parameter is digit (from `'0'` to `'9'`) in the ASCII table, and 0 otherwise.
+- `ft_isdigit`: Returns 1 if the character passed as a parameter is a digit (from `'0'` to `'9'`) in the ASCII table, and 0 otherwise.
 - `ft_isalnum`: Returns 1 if the character passed as a parameter is alphabetical or a digit (from `'a'` to `'z'`, from `'A'` to `'Z'` or from `'0'` to `'9'`) in the ASCII table, and 0 otherwise.
-- `ft_isascii`: Returns 1 if the value passed as a parameter is a character (from 0 to 127) in the ASCII table, and 0 otherwise.
+- `ft_isascii`: Returns 1 if the value passed as a parameter is a character in the ASCII table (from 0 to 127), and 0 otherwise.
+- `ft_isprint`: Returns 1 if the character passed as a parameter is printable (from 32, the space `' '`, to 126, `'~'`) in the ASCII table, and 0 otherwise.
 - `ft_strlen`: Returns the number of characters in the string passed as a parameter, counting until the null terminator (`'\0'`), which is not included in the count.
-- `
+- `ft_memset`: 

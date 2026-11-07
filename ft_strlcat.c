@@ -6,7 +6,7 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:45 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/06 20:48:11 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/07 17:57:05 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		return (size + size_source);
 	d = size_dest;
 	s = 0;
-	while (d < size && src[s])
+	while (d < size - 1 && src[s])
 	{
 		dst[d] = src[s];
 		d++;
