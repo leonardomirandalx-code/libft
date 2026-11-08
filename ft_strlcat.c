@@ -6,13 +6,13 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:45 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/07 17:57:05 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/08 13:55:42 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	size_t	ft_strlen_special(const char *s, size_t size)
+static size_t	ft_strlen_special(char *s, size_t size)
 {
 	size_t	i;
 

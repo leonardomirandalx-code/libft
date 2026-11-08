@@ -6,7 +6,7 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:41 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/04 23:00:41 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/08 11:19:10 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	unsigned char	*p;
-	size_t			i;
-
-	p = (unsigned char *)s;
-	i = 0;
-	while (i < n)
-	{
-		p[i] = '\0';
-		i++;
-	}
+	ft_memset(s, 0, n);
 }
