@@ -31,5 +31,6 @@ All these functions are compiled into a static library, `libft.a`, which can be 
 - `ft_toupper`: Converts a lowercase letter (from `'a'` to `'z'`) to its uppercase equivalent in the ASCII table. If the character is not a lowercase letter, it is returned unchanged.
 - `ft_tolower`: Converts an uppercase letter (from `'A'` to `'Z'`) to its lowercase equivalent in the ASCII table. If the character is not an uppercase letter, it is returned unchanged.
 - `ft_strchr`: Returns a pointer to the first occurrence of the character `c` (converted to a `char`) in the string `s`. The null terminator is considered part of the string, so searching for `'\0'` returns a pointer to the end of `s`. If the character is not found, it returns `NULL`.
-
+- `ft_strrchr`: Returns a pointer to the last occurrence of the character `c` (converted to a `char`) in the string `s`. The null terminator is considered part of the string, so searching for `'\0'` returns a pointer to the end of `s`. If the character is not found, it returns `NULL`.
+- `ft_strncmp`: Compares at most the first `n` characters of the strings `s1` and `s2`, treating each character as an `unsigned char`. It returns 0 if they are equal, a negative value if the first differing character of `s1` is lower than that of `s2`, and a positive value if it is greater. The comparison stops at the first null terminator.
 
