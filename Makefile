@@ -3,13 +3,12 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: leomiran <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/10/31 00:50:59 by leomiran          #+#    #+#              #
-#    Updated: 2026/11/11 21:15:10 by leomiran         ###   ########.fr        #
+#    Created: 2026/11/11 21:17:03 by leomiran          #+#    #+#              #
+#    Updated: 2026/11/11 21:17:08 by leomiran         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
 
 NAME = libft.a
 
