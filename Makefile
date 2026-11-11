@@ -6,7 +6,7 @@
 #    By: leomiran <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/10/31 00:50:59 by leomiran          #+#    #+#              #
-#    Updated: 2026/11/06 17:54:05 by leomiran         ###   ########.fr        #
+#    Updated: 2026/11/11 21:15:10 by leomiran         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,5 +84,4 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean r
-	
 	.PHONY: all clean fclean re
