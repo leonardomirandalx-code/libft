@@ -14,9 +14,13 @@ All these functions are compiled into a static library, `libft.a`, which can be 
 
 ### Requirements
 
+<<<<<<< HEAD
 - ### Requirements
 
 - A C compiler, such as `gcc` or `clang`.
+=======
+- A C compiler, such as `cc`.
+>>>>>>> refs/remotes/origin/main
 - GNU Make.
 
 ### Compilation
