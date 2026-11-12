@@ -6,7 +6,7 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:45 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/08 10:36:19 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/12 19:11:03 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stddef.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h>
 
 typedef struct s_list
 {

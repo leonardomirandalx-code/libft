@@ -3,13 +3,12 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: leomiran <marvin@42.fr>                    +#+  +:+       +#+         #
+#    By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/10/31 00:50:59 by leomiran          #+#    #+#              #
-#    Updated: 2026/11/06 17:54:05 by leomiran         ###   ########.fr        #
+#    Created: 2026/11/11 21:17:03 by leomiran          #+#    #+#              #
+#    Updated: 2026/11/12 19:09:31 by leomiran         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
-
 
 NAME = libft.a
 
@@ -72,7 +71,7 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(AR) $(ARFLAGS) $(NAME) $(OBJS)
 
-%.o: %.c libft.h
+%.o: %.c
 	$(CC) -c $(CFLAGS) $< -o $@
 
 clean:
@@ -83,6 +82,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean r
-	
-	.PHONY: all clean fclean re
+.PHONY: all clean fclean re

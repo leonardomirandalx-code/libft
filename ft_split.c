@@ -6,12 +6,11 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:44 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/04 23:00:44 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/11 21:13:28 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t	ft_count_words(char const *s, char c)
 {

@@ -6,12 +6,11 @@
 /*   By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/04 23:00:41 by leomiran          #+#    #+#             */
-/*   Updated: 2026/11/04 23:00:41 by leomiran         ###   ########.fr       */
+/*   Updated: 2026/11/11 21:13:39 by leomiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static size_t	ft_measure(int n)
 {
