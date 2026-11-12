@@ -6,11 +6,7 @@
 #    By: leomiran <leomiran@student.42lisboa.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/11/11 21:17:03 by leomiran          #+#    #+#              #
-<<<<<<< HEAD
 #    Updated: 2026/11/12 19:09:31 by leomiran         ###   ########.fr        #
-=======
-#    Updated: 2026/11/11 21:27:13 by leomiran         ###   ########.fr        #
->>>>>>> refs/remotes/origin/main
 #                                                                              #
 # **************************************************************************** #
 
@@ -87,7 +83,3 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean re
-<<<<<<< HEAD
-=======
-	.PHONY: all clean fclean re
->>>>>>> refs/remotes/origin/main
